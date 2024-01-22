@@ -5,5 +5,9 @@
 </script>
 
 <Navbar />
-<slot />
+<div class="h-screen w-full">
+    <div class="max-w-[1500px] m-auto px-4 h-full bg-red-400">
+        <slot />
+    </div>
+</div>
 <Footer />

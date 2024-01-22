@@ -1,6 +1,7 @@
 <script>
     import Icon from '@iconify/svelte';
-    import navLinks from "$lib/data/navLinks.json";
+
+    export let navLinks;
     let mobileMenuState = false;
 </script>
 

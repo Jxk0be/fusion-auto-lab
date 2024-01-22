@@ -1,6 +1,7 @@
 <script>
     import Service from "../../components/Service.svelte";
-    import services from "$lib/data/services.json";
+    export let data;
+    const { services } = data;
 </script>
 
 <div class="pt-[70px] h-auto">

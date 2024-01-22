@@ -1,5 +1,3 @@
-<script>
-
-</script>
-
-<h1>Contact page</h1>
+<div class="pt-[70px]">
+    <h1>Contact Page</h1>
+</div>

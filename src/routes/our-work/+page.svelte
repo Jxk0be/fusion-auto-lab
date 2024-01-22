@@ -1,5 +1,3 @@
-<script>
-
-</script>
-
-<h1>Our work</h1>
+<div class="pt-[70px]">
+    <h1>Our Work Page</h1>
+</div>

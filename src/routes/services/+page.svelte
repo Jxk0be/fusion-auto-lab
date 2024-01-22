@@ -3,8 +3,9 @@
     import services from "$lib/data/services.json";
 </script>
 
-<div class="pt-[70px]">
+<div class="pt-[70px] h-full pb-[120px]">
     <h1>Services Page</h1>
+
     {#each services as serv}
         <Service service={serv}/>
     {/each}

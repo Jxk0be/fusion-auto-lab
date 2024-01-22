@@ -1,11 +1,9 @@
 <script>
     import "../app.css";
+    import Navbar from '../components/Navbar.svelte';
+    import Footer from '../components/Footer.svelte';
 </script>
 
-<div class="fixed w-full h-[70px] bg-red-400">
-    <div class="max-w-[1500px] m-auto w-full bg-black h-full">
-
-    </div>
-</div>
-
+<Navbar />
 <slot />
+<Footer />

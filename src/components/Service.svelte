@@ -2,7 +2,7 @@
     export let service;
 </script>
 
-<div class="mb-5">
+<div class="">
 
 </div>
 <h1>{service.title}</h1>

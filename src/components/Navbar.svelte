@@ -5,9 +5,9 @@
     let mobileMenuState = false;
 </script>
 
-<div class="fixed w-full h-[70px] bg-red-400 text-white text-xl z-20">
+<div class="fixed w-full h-[50px] md:h-[70px] bg-red-400 text-white text-xl z-20">
     <div class="max-w-[1500px] m-auto w-full bg-black h-full flex justify-between items-center px-4">
-        <a class="font-semibold" href="/">Auto Fusion Lab</a>
+        <a on:click={() => mobileMenuState = false} class="font-semibold" href="/">Fusion Auto Lab</a>
 
         <!-- This is shown for mobile screens (menu/close buttons) -->
         <div class="text-4xl md:hidden flex items-center">
@@ -32,7 +32,7 @@
 </div>
 
 <!-- This is going to be only visible during mobile screens when the menu button is hit -->
-<div class={`md:hidden flex bg-black text-xl text-white font-semibold fixed ${mobileMenuState ? 'top-0 duration-200 ease-in-out' : 'duration-200 ease-in-out top-[-300px]'}  pt-[70px] h-[260px] w-full`}>
+<div class={`md:hidden flex bg-black text-xl text-white font-semibold fixed ${mobileMenuState ? 'top-0 duration-300 ease-in-out' : ' duration-300 ease-in-out top-[-300px]'}  pt-[50px] h-[250px] w-full`}>
     <div class="flex flex-col w-full h-full items-center justify-center">
         {#each navLinks as link}
             {#if link.title !== "Contact"}

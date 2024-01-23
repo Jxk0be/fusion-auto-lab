@@ -25,14 +25,14 @@
         <!-- This is shown for medium screens -->
         <div class="hidden md:flex justify-between items-center font-semibold w-[400px]">
             {#each navLinks as link}
-                <a href={link.link}>{link.title}</a>
+                <a on:click={() => mobileMenuState = false} href={link.link}>{link.title}</a>
             {/each}
         </div>
     </div>
 </div>
 
 <!-- This is going to be only visible during mobile screens when the menu button is hit -->
-<div class={`md:hidden flex bg-black text-xl text-white font-semibold fixed ${mobileMenuState ? 'top-0 duration-300 ease-in-out' : ' duration-300 ease-in-out top-[-300px]'}  pt-[50px] h-[250px] w-full`}>
+<div class={`md:hidden flex bg-black text-xl text-white font-semibold fixed ${mobileMenuState ? 'top-0 duration-200 ease-in-out' : ' duration-200 ease-in-out top-[-300px]'}  pt-[50px] h-[250px] w-full`}>
     <div class="flex flex-col w-full h-full items-center justify-center">
         {#each navLinks as link}
             {#if link.title !== "Contact"}

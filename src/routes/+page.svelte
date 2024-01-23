@@ -1,3 +1,9 @@
-<div class="pt-[70px]">
-    <h1>Home Page</h1>
+<script>
+    import Hero from '../components/Hero.svelte';
+    import About from '../components/About.svelte';
+</script>
+
+<div>
+    <Hero />
+    <About />
 </div>

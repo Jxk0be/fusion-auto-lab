@@ -1,5 +1,5 @@
-<div class="h-[60vh] md:h-[50vh] w-full bg-green-400 flex justify-between items-center flex-col pt-[50px]">
-    <div class="flex justify-center items-center w-full h-[20vh] bg-blue-100">
+<div class="h-[70vh] md:h-[50vh] w-full bg-green-400 flex justify-between items-center flex-col pt-[50px]">
+    <div class="flex justify-center items-center w-full h-[10vh] bg-blue-100">
         <h1 class="text-[50px] font-extrabold">About Us</h1>
     </div>
     <div class="flex justify-around md:flex-row flex-col items-center w-full h-full">
